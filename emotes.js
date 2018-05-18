@@ -45,7 +45,7 @@ $("#btnsearch").on("click", function() {
 		
 		function getEmotes() {
 			
-			ChangeUrl("", "//betterdiscord.net/emotes/?ed=" + ped + "&page=" + ppage + "&s=" + ps);
+			ChangeUrl("", "//jbmagination.github.io/betterdiscordwebsite/emotes.html/?ed=" + ped + "&page=" + ppage + "&s=" + ps);
 			
 			$("#semotes").text("");
 			$("#emheader p").text("");
