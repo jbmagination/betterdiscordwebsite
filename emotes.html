@@ -1,0 +1,128 @@
+
+
+<!doctype html>
+<html lang="en">
+
+	
+	<head>
+	<title>BetterDiscord</title>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta content="BetterDiscord"               property="og:site_name">
+    <meta content="Better Discord"              property="og:title">
+    <meta content="Discord Enhancement Project" property="og:description">
+    <meta content="website"                     property="og:type">
+    <meta content="@Jiiksi"                     property="twitter:author">
+    <meta name="description" content="Discord Enhancement Project">
+    <link rel="shortcut icon" href="https://betterdiscord.net/content/img/fav.jpg"> 
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" type="text/css">	
+	<link rel="stylesheet" href="../content/css/main3.css?v=1.7" type="text/css">
+	<link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css">
+</head>
+	<body>
+		
+		<script>
+		
+		var ped = "all";
+		var ppage = 1;
+		var ps = "";
+		
+		</script>
+
+		<div id="mheader">
+	<a href="https://betterdiscord.net/home/" class="navlink">BetterDiscord</a>
+		<a id="loginbutton" href="../login?src=https://betterdiscord.net/emotes/?ed=all&page=1&s=">Connect with Discord</a>
+	</div>		
+		<a href="https://github.com/jiiks/betterdiscordapp"><img style="position: absolute; top: 104px; right: 0; border: 0;z-index:9001;" src="https://camo.githubusercontent.com/52760788cde945287fbb584134c4cbc2bc36f904/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f77686974655f6666666666662e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_white_ffffff.png"></a>		
+		
+		<div class="container-fluid">
+			<div id="navpadder" style="display: none; height: 34px;"></div>
+<div id="navrow" class="row">
+	<div id="navcontainer" class="container">
+		<nav>
+			<ul>
+				<li id="floatingbrand"><a href="../home/">BetterDiscord</a></li>
+				<li  ><a href="../home/">Home</a></li>
+				<li  ><a href="../emotes/">Emotes</a></li>
+				<li  ><a href="../plugins/">Plugins</a></li>
+				<li  ><a href="../themes/">Themes</a></li>
+				<li id="floatinglogin">
+									<a href="../login?src=https://betterdiscord.net/emotes/?ed=all&page=1&s=">Connect with Discord</a>
+								</li>
+			</ul>
+		</nav>
+	</div>
+</div>
+
+
+
+
+
+			<div class="row">
+				<div class="jumbotron">
+					<div class="container">
+						<div class="row">
+							<div class="col-sm-12 text-center">
+								<h1 style="font-size:80px;">Emotes</h1>
+								<div class="links">
+									<button id="sffz" style="text-align:center;" class="btn btn-default btn-lg btn-dl ">FrankerFaceZ</button>
+									<button id="sbttv" style="text-align:center;" class="btn btn-default btn-lg btn-dl ">BetterTTV</button>
+									<button id="sall" style="text-align:center;" class="btn btn-default btn-lg btn-dl active">All</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container">
+					
+					<div id="emheader">
+						<h4 id="semotes"></h4>
+						<p></p>
+					</div>
+					
+					<ul id="top-pagination"></ul>
+					<div id="srch">
+						<input id="s" class="form-control" type="text" name="s">
+						<button id="btnsearch" class="btn btn-default">Search</button>
+					</div>
+					
+					
+
+					<table class="table table-striped table-hover">
+						<thead>
+							<tr>
+								<th>Command</th>
+								<th>Emote</th>
+							</tr>
+						</thead>
+						<tbody id="emotesbody">
+						
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+		<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="../content/js/ekko-lightbox.min.js"></script>
+<script src="../content/js/toastr.min.js"></script>
+<script src="../content/js/main.js?v=1.1"></script>		
+		<script src="https://betterdiscord.net/content/js/bootstrap-paginator.js"></script>
+		<script src="https://betterdiscord.net/content/js/emotes.js?v=1.4"></script>
+		<div class="footer">
+	<form style="height:0;margin-top:1px;" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="3PFE9R493AGSE">
+<input type="image" src="https://betterdiscord.net/content/img/paypal3.png" border="0" name="submit" alt="" style="background:transparent;">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form> 
+    <a href="https://www.patreon.com/user?u=2642544" style="position: absolute;left: 85px;top: 11px;font-weight: 900;background-image: url(https://s3.amazonaws.com/patreon_public_assets/toolbox/patreon_logo.png);width: 20px;height: 20px;background-size: cover;" target="_blank"></a>
+	<div class="copy">
+		&copy; 2015-2016 <a href="https://betterdiscord.net/home/">BetterDiscord</a> | <a href="/cdn-cgi/l/email-protection#eb989e9b9b84999fab898e9f9f8e998f82988884998fc5858e9f" target="_top">Contact</a> | <a href="https://jiiks.net">Jiiks.net</a> | <a href="https://twitter.com/jiiksi">Twitter</a> | <a href="https://github.com/jiiks">Github</a> | <a href="https://betterdiscord.net/privacy/">Privacy</a>
+	</div>
+</div>	<script data-cfasync="false" src="/cdn-cgi/scripts/f2bf09f8/cloudflare-static/email-decode.min.js"></script></body>
+		
+</html>
+	
